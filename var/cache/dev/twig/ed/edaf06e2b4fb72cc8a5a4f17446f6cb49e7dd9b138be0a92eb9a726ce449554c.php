@@ -62,9 +62,9 @@ class __TwigTemplate_132f12468a8aede8dac06966abdaa2fddd609daeeca355b947f924b4f81
 ";
         // line 15
         $this->displayBlock('header', $context, $blocks);
-        // line 55
+        // line 53
         $this->displayBlock('body', $context, $blocks);
-        // line 56
+        // line 54
         echo "</body>
 </html>";
         
@@ -159,16 +159,11 @@ class __TwigTemplate_132f12468a8aede8dac06966abdaa2fddd609daeeca355b947f924b4f81
             echo "\" class=\"navbar-brand\">
                     Author
         </a>
-        <a href=\"";
-            // line 32
-            echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("aboutus");
-            echo "\" class=\"navbar-brand\">
-                    About Us
-        </a>
+        
         ";
-            // line 35
+            // line 33
             if ($this->extensions['Symfony\Bridge\Twig\Extension\SecurityExtension']->isGranted("ROLE_ADMIN")) {
-                // line 36
+                // line 34
                 echo "        <a href=\"";
                 echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("account");
                 echo "\" class=\"navbar-brand\">
@@ -176,33 +171,33 @@ class __TwigTemplate_132f12468a8aede8dac06966abdaa2fddd609daeeca355b947f924b4f81
         </a>
         ";
             }
-            // line 40
+            // line 38
             echo "        <a class=\"nav-link\" href=\"";
-            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("user show", ["id" => twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 40, $this->source); })()), "user", [], "any", false, false, false, 40), "id", [], "any", false, false, false, 40)]), "html", null, true);
+            echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("user show", ["id" => twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new RuntimeError('Variable "app" does not exist.', 38, $this->source); })()), "user", [], "any", false, false, false, 38), "id", [], "any", false, false, false, 38)]), "html", null, true);
             echo "\">
         Your Profile
         </a>
         <a class=\"nav-link\" href=\"";
-            // line 43
+            // line 41
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_logout");
             echo "\">
                 Logout
         </a>
     ";
         } else {
-            // line 47
+            // line 45
             echo "        <li><a class=\"nav-link\" href=\"";
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("app_login");
             echo "\">Login</a></li>
         <li>
             <a class=\"nav-link\" href=\"";
-            // line 49
+            // line 47
             echo $this->extensions['Symfony\Bridge\Twig\Extension\RoutingExtension']->getPath("registration");
             echo "\">Register</a>
         </li>
     ";
         }
-        // line 52
+        // line 50
         echo "    </ul>
 </nav>
 ";
@@ -214,7 +209,7 @@ class __TwigTemplate_132f12468a8aede8dac06966abdaa2fddd609daeeca355b947f924b4f81
 
     }
 
-    // line 55
+    // line 53
     public function block_body($context, array $blocks = [])
     {
         $macros = $this->macros;
@@ -239,7 +234,7 @@ class __TwigTemplate_132f12468a8aede8dac06966abdaa2fddd609daeeca355b947f924b4f81
 
     public function getDebugInfo()
     {
-        return array (  218 => 55,  206 => 52,  200 => 49,  194 => 47,  187 => 43,  180 => 40,  172 => 36,  170 => 35,  164 => 32,  158 => 29,  152 => 26,  146 => 23,  139 => 20,  137 => 19,  132 => 16,  122 => 15,  108 => 8,  98 => 7,  79 => 6,  68 => 56,  66 => 55,  64 => 15,  60 => 13,  58 => 7,  54 => 6,  47 => 1,);
+        return array (  213 => 53,  201 => 50,  195 => 47,  189 => 45,  182 => 41,  175 => 38,  167 => 34,  165 => 33,  158 => 29,  152 => 26,  146 => 23,  139 => 20,  137 => 19,  132 => 16,  122 => 15,  108 => 8,  98 => 7,  79 => 6,  68 => 54,  66 => 53,  64 => 15,  60 => 13,  58 => 7,  54 => 6,  47 => 1,);
     }
 
     public function getSourceContext()
@@ -275,9 +270,7 @@ class __TwigTemplate_132f12468a8aede8dac06966abdaa2fddd609daeeca355b947f924b4f81
         <a href=\"{{ path('author_show') }}\" class=\"navbar-brand\">
                     Author
         </a>
-        <a href=\"{{ path('aboutus') }}\" class=\"navbar-brand\">
-                    About Us
-        </a>
+        
         {% if is_granted('ROLE_ADMIN') %}
         <a href=\"{{ path('account') }}\" class=\"navbar-brand\">
             Customer

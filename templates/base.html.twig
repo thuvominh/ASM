@@ -29,9 +29,7 @@
         <a href="{{ path('author_show') }}" class="navbar-brand">
                     Author
         </a>
-        <a href="{{ path('aboutus') }}" class="navbar-brand">
-                    About Us
-        </a>
+        
         {% if is_granted('ROLE_ADMIN') %}
         <a href="{{ path('account') }}" class="navbar-brand">
             Customer
