@@ -1,0 +1,15 @@
+{
+    "dir": "C:\\Users\\LENOVO\\ASM\\ASM",
+    "watch": null,
+    "pid": 20380,
+    "port": 0,
+    "scheme": "",
+    "args": [
+        "C:\\xampp\\php\\php-cgi.exe",
+        "-b",
+        "53707",
+        "-d",
+        "error_log=C:\\Users\\LENOVO\\.symfony5\\log\\6b0ab48cdd29a64ee6414a0f3c88bba241cf96a4.log"
+    ],
+    "name": "PHP-CGI"
+}

@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {{ form_start(form) }}
+    <div class="form-group">
+        <label for="full_name">Name:</label>
+        {{ form_widget(form.full_name,{
+            'attr':{
+                'class':'form-control',
+                'placeholder': 'Full_name'
+            }
+        }) }}
+    </div>
+    <div class="form-group">
+        <label for="nationality">Nationality:</label>
+        {{ form_widget(form.nationality,{
+            'attr':{
+                'class':'form-control',
+                'placeholder': 'Nationality'
+            }
+        }) }}
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        {{ form_widget(form.gender,{
+            'attr':{
+                'class':'form-control',
+                'placeholder': 'Gender'
+            }
+        }) }}
+    </div>
+    <input type="submit" name="author_edit" value="Edit" class="btn btn-primary"/>
+    {{ form_end(form) }}
+{% endblock %}

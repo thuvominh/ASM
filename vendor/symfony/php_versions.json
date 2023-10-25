@@ -1,0 +1,14 @@
+[
+    {
+        "version": "7.4.33",
+        "path": "C:\\xampp\\php",
+        "php_path": "C:\\xampp\\php\\php.exe",
+        "fpm_path": "",
+        "cgi_path": "C:\\xampp\\php\\php-cgi.exe",
+        "php_config_path": "",
+        "phpize_path": "",
+        "phpdbg_path": "C:\\xampp\\php\\phpdbg.exe",
+        "is_system": true,
+        "frankenphp": false
+    }
+]

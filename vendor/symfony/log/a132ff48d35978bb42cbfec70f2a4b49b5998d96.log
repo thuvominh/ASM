@@ -1,0 +1,5 @@
+{"level":"warn","source":"server","source":"HTTP","error":"Passthru script \"/index.php\" does not exist under C:\\Users\\LENOVO\\: CreateFile C:\\Users\\LENOVO\\index.php: The system cannot find the file specified.","time":"2023-10-22T02:39:03+07:00","message":"unable to detect the front controller, disabling the PHP server"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-22T02:39:07+07:00","message":"/"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-22T02:39:14+07:00","message":"/books"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-22T03:20:37+07:00","message":"/books"}
+{"level":"warn","source":"server","ip":"127.0.0.1","status":404,"method":"GET","scheme":"https","host":"127.0.0.1:8004","time":"2023-10-22T03:20:42+07:00","message":"/"}
