@@ -174,7 +174,7 @@ class __TwigTemplate_aff14050867af4d98f1907e0115cb472ad8aacfc53901de5971e378f668
 </head>
 <body>
 <nav class=\"navbar navbar-dark bg-dark sticky-top\">
-  <span class=\"navbar-brand\">TANNAT Bookstore </span>
+  <span class=\"navbar-brand\">Destiny Bookstore </span>
   <a href=\"http://127.0.0.1:8000/book\" class=\"navbar-brand\">
     Book list
   </a>
@@ -389,7 +389,7 @@ class __TwigTemplate_aff14050867af4d98f1907e0115cb472ad8aacfc53901de5971e378f668
 </head>
 <body>
 <nav class=\"navbar navbar-dark bg-dark sticky-top\">
-  <span class=\"navbar-brand\">TANNAT Bookstore </span>
+  <span class=\"navbar-brand\">Destiny Bookstore </span>
   <a href=\"http://127.0.0.1:8000/book\" class=\"navbar-brand\">
     Book list
   </a>
