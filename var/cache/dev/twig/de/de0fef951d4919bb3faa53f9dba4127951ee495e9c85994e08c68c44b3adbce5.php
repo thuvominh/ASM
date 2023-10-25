@@ -187,9 +187,7 @@ class __TwigTemplate_aff14050867af4d98f1907e0115cb472ad8aacfc53901de5971e378f668
   <a href=\"#\" class=\"navbar-brand\">
     Author
   </a>
-  <a href=\"#\" class=\"navbar-brand\">
-    About Us
-  </a>
+  
 </nav>
 <div class=\"container book\">
   <input type=\"text\" placeholder=\"Search...\" class=\"input-search\" />
@@ -402,9 +400,7 @@ class __TwigTemplate_aff14050867af4d98f1907e0115cb472ad8aacfc53901de5971e378f668
   <a href=\"#\" class=\"navbar-brand\">
     Author
   </a>
-  <a href=\"#\" class=\"navbar-brand\">
-    About Us
-  </a>
+  
 </nav>
 <div class=\"container book\">
   <input type=\"text\" placeholder=\"Search...\" class=\"input-search\" />

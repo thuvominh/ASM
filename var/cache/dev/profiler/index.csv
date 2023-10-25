@@ -244,3 +244,6 @@ f236a7,127.0.0.1,GET,http://127.0.0.1:8000/assets/styles/app.css,1698262675,,404
 69348e,127.0.0.1,GET,http://127.0.0.1:8000/search_book,1698262686,,200
 d75a3a,127.0.0.1,GET,http://127.0.0.1:8000/assets/styles/app.css,1698262687,8e0be0,404
 8e0be0,127.0.0.1,GET,http://127.0.0.1:8000/assets/styles/app.css,1698262687,,404
+f46e66,127.0.0.1,GET,http://127.0.0.1:8000/search_book,1698262800,,200
+b0b35b,127.0.0.1,GET,http://127.0.0.1:8000/assets/styles/app.css,1698262800,e586a1,404
+e586a1,127.0.0.1,GET,http://127.0.0.1:8000/assets/styles/app.css,1698262801,,404
