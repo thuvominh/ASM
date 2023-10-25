@@ -59,22 +59,7 @@ class CategoryBookController extends AbstractController
     /**
      * @Route("/category/edit/{id}", name="category_edit")
      */
-    public function editCategory(Request $request, CategoryBook $category, EntityManagerInterface $entityManager): Response
-    {
-        $form = $this->createForm(CategoryType::class, $category);
-        $form->handleRequest($request);
-
-        if ($form->isSubmitted() && $form->isValid()) {
-            $entityManager->flush();
-
-            return $this->redirectToRoute('list_category', [], Response::HTTP_SEE_OTHER);
-        }
-
-        return $this->renderForm('category_book/category_edit.html.twig', [
-            'category' => $category,
-            'form' => $form,
-        ]);
-    }
+    
     /**
      * @Route("/category_create", name="create_category", methods={"GET","POST"})
      */
