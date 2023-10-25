@@ -247,7 +247,7 @@ class __TwigTemplate_aead6d5866a6f6de6ca078089aa534dfcb54d58a89de08d0bbd49d6a29e
                 <span class=\"icon-bar\"></span>
                 <span class=\"icon-bar\"></span>
             </button>
-            <span class=\"navbar-brand\">TANNAT Bookstore</span>
+            <span class=\"navbar-brand\">Destiny Bookstore</span>
         </div>
         <div id=\"navbar\" class=\"collapse navbar-collapse\">
             <ul class=\"nav navbar-nav\">
